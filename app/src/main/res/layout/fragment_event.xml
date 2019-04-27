@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="#fff"
+        tools:context=".EventFragment">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/event_rv_ef"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+        <ImageView
+            android:id="@+id/nothing_img_ef"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_logo"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/add_event_bt_ef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="95dp"
+            android:text="Add Event"
+            android:visibility="gone"/>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_add_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="#af03ff"
+            android:visibility="visible"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_add_white_mini" />
+
+
+    </RelativeLayout>

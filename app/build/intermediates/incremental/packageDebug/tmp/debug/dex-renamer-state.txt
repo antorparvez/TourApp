@@ -1,0 +1,4 @@
+#Sun Apr 28 03:49:56 BDT 2019
+base.0=D\:\\TravelMate\\TravelMate\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

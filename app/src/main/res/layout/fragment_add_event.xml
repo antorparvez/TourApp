@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_soft"
+    tools:context=".AddEventFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add an Event"
+                android:textColor="#fff"
+                android:textSize="32dp"
+                android:gravity="center"
+                android:layout_marginBottom="40dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/registration_soft">
+                <EditText
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:drawableLeft="@drawable/ic_account"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:textColor="#fff"
+                    android:textColorHint="#a6ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/event_name_in_aef"
+                    android:hint="Enter an event name"/>
+                <EditText
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:drawableLeft="@drawable/ic_add_location"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:textColor="#fff"
+                    android:textColorHint="#a6ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/event_start_location_in_aef"
+                    android:hint="Your starting location"/>
+                <EditText
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:drawableRight="@drawable/ic_search_white"
+                    android:drawableLeft="@drawable/ic_destination"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:textColor="#fff"
+                    android:textColorHint="#a6ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/event_destination_in_aef"
+                    android:hint="Your destination"/>
+                <Button
+                    android:id="@+id/event_departure_date_in_bt_aef"
+                    android:text="Departure date"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/button_background_1"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="20dp"
+                    />
+                <EditText
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:drawableLeft="@drawable/ic_attach_money"
+                    android:drawablePadding="10dp"
+                    android:inputType="numberDecimal"
+                    android:textColor="#fff"
+                    android:textColorHint="#a6ffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/event_budget_in_aef"
+                    android:hint="Your estimated budget"/>
+                <Button
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/button_background_1"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/create_event_btn_aef"
+                    android:text="Create Event"
+                    android:visibility="visible"/>
+                <Button
+                    android:text="Update Info"
+                    android:id="@+id/update_event_btn_aef"
+                    android:visibility="gone"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/button_background_1"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="20dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
